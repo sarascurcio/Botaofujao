@@ -1,0 +1,51 @@
+/*resetando o css dos nossos elementos html*/
+*{
+    margin:0;
+    padding:0;
+}
+
+/*estilizando a main*/
+main{
+    width: 100vw;
+    height:100vh;
+    background-color:rgb(150, 211, 196) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content img{
+    width: 400px;
+    height: fit-content;
+    margin-bottom: 30px;
+}
+.content{
+    background-color: beige;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: rgb(158, 116, 197);
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#not{
+    background-color: rgb(211, 26, 26);
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+#yes{
+    background-color: rgb(55, 214, 108);
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+}
